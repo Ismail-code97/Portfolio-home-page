@@ -1,0 +1,172 @@
+.home-content {
+  height: 100vh;
+  background: linear-gradient(180deg, #f7f5fb, #fcfcff);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar a {
+  color: #f29559;
+}
+
+.coding-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 3.125rem;
+  color: #dc2f02;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 71.875rem) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 49.375rem) {
+  h1 {
+    display: none;
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 49.375rem) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+    margin: 0 auto;
+  }
+}
+
+.project-card {
+  background-color: #adb5bd;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 20rem;
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 80.35rem) {
+  .project-card {
+    overflow: hidden;
+    max-width: 15rem;
+    min-height: 20rem;
+  }
+}
+
+@media (max-width: 71.875rem) {
+  .project-card {
+    overflow: hidden;
+    max-width: 10rem;
+    min-height: 10rem;
+  }
+}
+
+@media (max-width: 49.375rem) {
+  .project-card {
+    margin: 1rem;
+  }
+}
+
+img {
+  width: 100%;
+
+  object-fit: contain;
+}
+
+.written-content {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.written-content h2 {
+  margin-bottom: 1rem;
+  font-size: 25px;
+  color: #001219;
+}
+
+@media (max-width: 71.875rem) {
+  .written-content h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 49.375rem) {
+  .written-content h2 {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+}
+
+hr {
+  background-color: black;
+}
+
+.written-content p {
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+@media (max-width: 71.875rem) {
+  .written-content p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 49.375rem) {
+  .written-content p {
+    font-size: 0.5rem;
+  }
+}
+
+strong {
+  color: #001219;
+}
+
+span button {
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  font-size: 15px;
+  border-radius: 1rem;
+  padding: 4px 20px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 71.875rem) {
+  span button {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 49.375rem) {
+  span button {
+    font-size: 0.4rem;
+  }
+}
+
+span button a {
+  text-decoration: none;
+  color: white;
+}

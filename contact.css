@@ -1,0 +1,89 @@
+.home-content {
+  height: 100vh;
+  background: linear-gradient(180deg, #f7f5fb, #fcfcff);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar a {
+  color: #f29559;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 3.125rem;
+  color: #dc2f02;
+}
+
+@media (max-width: 11.875rem) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+form {
+  max-width: 30rem;
+  margin: 0 auto;
+  background-color: rgb(255, 204, 153);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0.0625rem 0.0625rem 0.125rem #dc2f02;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0.125rem solid black;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 1.2rem;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #f2e8cf;
+}
+
+label {
+  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+}
+
+form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #bc6c25;
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+button:hover {
+  background-color: #e85d04;
+}
